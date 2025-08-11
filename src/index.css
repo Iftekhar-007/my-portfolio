@@ -1,2 +1,12 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap');
+
+@plugin "daisyui/theme" {
+    name: "light";
+  default: true;
+  --color-primary: #1E2A38;
+  --color-secondary: "cyan-300";
+  --font-mozila: "Mozilla",sans-serif ;
+}
