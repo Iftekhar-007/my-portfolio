@@ -62,7 +62,7 @@ import { NavLink } from "react-router";
 const Hero = () => {
   return (
     <div className="p-6">
-      <div className="bg-[#003146] rounded-2xl p-4 lg:p-0">
+      <div className="bg-linear-to-r from-gray-100 to-base-200 rounded-2xl p-4 lg:p-0 shadow-sm">
         <div className="flex flex-col items-center gap-6 lg:flex-row lg:p-10">
           {/* Image */}
           <img
@@ -73,23 +73,23 @@ const Hero = () => {
 
           {/* Content */}
           <div className="flex-1 text-center px-4 sm:px-6">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-[#F9F3EF] font-bold font-[philosopher] mb-4">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-black font-bold fontcormorand mb-4">
               MD. IFTEKHAR HOSSAIN SHAWON
             </h1>
 
             <div className="text-left space-y-2 flex flex-col justify-center items-center">
-              <p className="pt-3 font-[philosopher] text-sm sm:text-base md:text-lg text-[#F9F3EF] text-center">
+              <p className="pt-3 fontcormorand text-sm sm:text-base md:text-lg text-black text-center">
                 Frontend Web Developer, WordPress Web Developer
               </p>
 
               {/* LinkedIn */}
               <NavLink
                 to="https://www.linkedin.com/in/md-iftekhar7"
-                className="text-[#F9F3EF] flex items-center gap-3 break-all"
+                className="text-black flex items-center gap-3 break-all"
                 target="_blank"
               >
                 <CiLinkedin size={30} />
-                <span className="text-sm sm:text-base">
+                <span className="text-sm sm:text-base ">
                   https://www.linkedin.com/in/md-iftekhar7
                 </span>
               </NavLink>
@@ -97,7 +97,7 @@ const Hero = () => {
               {/* GitHub */}
               <NavLink
                 to="https://github.com/Iftekhar-007"
-                className="text-[#F9F3EF] flex items-center gap-3 break-all"
+                className="text-black flex items-center gap-3 break-all"
                 target="_blank"
               >
                 <FaGithub size={25} />
@@ -109,7 +109,7 @@ const Hero = () => {
 
             {/* Resume Button */}
             <div className="flex justify-center pt-4">
-              <button className="btn btn-outline font-[philosopher] text-[#F9F3EF] hover:text-black font-bold text-sm sm:text-base">
+              <button className="btn btn-outline fontcormorand text-black hover:text-black font-bold text-sm sm:text-base">
                 RESUME
               </button>
             </div>

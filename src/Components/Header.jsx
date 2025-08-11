@@ -1,9 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router";
 
+// bg-[#1B3C53]
+
 const Header = () => {
   return (
-    <div className="bg-[#1B3C53]">
+    <div className="bg-base-200 shadow-sm">
       <div className="navbar w-10/12 mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
@@ -39,24 +41,24 @@ const Header = () => {
           </div>
           <NavLink
             to="/"
-            className="text-2xl font-[philosopher] font-bold text-[#F9F3EF]"
+            className="text-2xl fontcormorand font-bold text-black"
           >
             MD. IFTEKHAR
           </NavLink>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-            <li className="text-[#F9F3EF] text-[16px] font-semibold">
+            <li className="text-black text-[16px] fontcormorand font-semibold">
               <a>Home</a>
             </li>
 
-            <li className="text-[#F9F3EF] text-[16px] font-semibold">
+            <li className="text-black text-[16px] fontcormorand font-semibold">
               <a>Item 3</a>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn btn-outline font-[philosopher] text-[#F9F3EF] hover:text-black font-bold ">
+          <a className="btn btn-outline fontcormorand text-black hover:text-black font-bold ">
             RESUME
           </a>
         </div>

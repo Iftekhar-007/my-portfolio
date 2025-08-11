@@ -36,12 +36,13 @@ const skills = [
   { name: "WordPress", icon: <FaWordpress className="text-blue-700" /> },
   { name: "Elementor", icon: <SiElementor className="text-pink-500" /> },
   { name: "JetEngine", icon: <SiJetbrains className="text-orange-500" /> },
+  { name: "Crocoblock", icon: <FaWordpress className="text-green-500" /> },
 ];
 
 export default function Skills() {
   return (
     <section className="">
-      <h2 className="text-4xl font-bold mb-3 font-[philosopher] text-gray-800 dark:text-white">
+      <h2 className="text-4xl font-bold mb-3 fontcormorand text-gray-800">
         My Skills
       </h2>
       <div className="flex flex-wrap gap-4 max-w-4xl">
@@ -51,7 +52,7 @@ export default function Skills() {
             className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 px-4 py-2 rounded-full shadow-md hover:scale-105 hover:shadow-lg transition-transform duration-200"
           >
             <span className="text-2xl">{skill.icon}</span>
-            <span className="font-medium text-gray-800 dark:text-gray-200">
+            <span className="font-medium fontcormorand text-gray-800 dark:text-gray-200">
               {skill.name}
             </span>
           </div>
