@@ -11,3 +11,7 @@
   --color-secondary: "cyan-300";
   --font-mozila: "Mozilla",sans-serif ;
 }
+
+html {
+  scroll-behavior: smooth;
+}

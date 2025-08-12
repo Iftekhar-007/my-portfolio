@@ -11,28 +11,28 @@ import ProjectCrad from "../Components/ProjectCrad";
 const Home = () => {
   return (
     <div className="w-10/12 mx-auto">
-      <div className="my-10">
+      <div id="hero" className="my-10">
         <Hero></Hero>
       </div>
 
-      <div>
-        <AboutMe></AboutMe>
+      <div id="about-me">
+        <AboutMe />
       </div>
 
-      <div className="my-10">
-        <Skills></Skills>
+      <div id="skills" className="my-10">
+        <Skills />
       </div>
 
-      <div>
-        <Education></Education>
+      <div id="education">
+        <Education />
       </div>
 
-      <div className="my-10">
-        <ProjectCrad></ProjectCrad>
+      <div id="projects" className="my-10">
+        <ProjectCrad />
       </div>
 
-      <div className="mb-10">
-        <Contact></Contact>
+      <div id="contact" className="mb-10">
+        <Contact />
       </div>
     </div>
   );

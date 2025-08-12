@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router";
+import { Link } from "react-scroll";
 
 // bg-[#1B3C53]
 
@@ -31,11 +32,28 @@ const Header = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a className="text-black">Home1</a>
+                <NavLink to="/">Home</NavLink>
               </li>
 
               <li>
-                <a className="text-black">Item 3</a>
+                <Link to="about-me" smooth={true} duration={500} offset={-80}>
+                  About Me
+                </Link>
+              </li>
+              <li>
+                <Link to="skills" smooth={true} duration={500} offset={-80}>
+                  Skills
+                </Link>
+              </li>
+              <li>
+                <Link to="projects" smooth={true} duration={500} offset={-80}>
+                  Projects
+                </Link>
+              </li>
+              <li>
+                <Link to="contact" smooth={true} duration={500} offset={-80}>
+                  Contact
+                </Link>
               </li>
             </ul>
           </div>
@@ -49,11 +67,28 @@ const Header = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li className="text-black text-[16px] fontcormorand font-semibold">
-              <a>Home</a>
+              <NavLink to="/">Home</NavLink>
             </li>
 
             <li className="text-black text-[16px] fontcormorand font-semibold">
-              <a>Item 3</a>
+              <Link to="about-me" smooth={true} duration={500} offset={-80}>
+                About Me
+              </Link>
+            </li>
+            <li className="text-black text-[16px] fontcormorand font-semibold">
+              <Link to="skills" smooth={true} duration={500} offset={-80}>
+                Skills
+              </Link>
+            </li>
+            <li className="text-black text-[16px] fontcormorand font-semibold">
+              <Link to="projects" smooth={true} duration={500} offset={-80}>
+                Projects
+              </Link>
+            </li>
+            <li className="text-black text-[16px] fontcormorand font-semibold">
+              <Link to="contact" smooth={true} duration={500} offset={-80}>
+                Contact
+              </Link>
             </li>
           </ul>
         </div>

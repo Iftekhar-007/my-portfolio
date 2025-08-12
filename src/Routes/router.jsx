@@ -17,10 +17,6 @@ const router = createBrowserRouter([
         path: "/projects/:id",
         Component: ProjectDetail,
       },
-      {
-        path: "/projects",
-        Component: ProjectCrad,
-      },
     ],
   },
 ]);
