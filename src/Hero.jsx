@@ -78,7 +78,7 @@ const Hero = () => {
             </h1>
 
             <div className="text-left space-y-2 flex flex-col justify-center items-center">
-              <p className="pt-3 fontcormorand text-sm sm:text-base md:text-lg text-black text-center">
+              <p className="pt-3 fontcormorand text-2xl text-black text-center">
                 Frontend Web Developer, WordPress Web Developer
               </p>
 

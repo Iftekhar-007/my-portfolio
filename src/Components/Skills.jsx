@@ -42,7 +42,7 @@ const skills = [
 export default function Skills() {
   return (
     <section className="">
-      <h2 className="text-4xl font-bold mb-3 fontcormorand text-gray-800">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl  text-black font-bold fontcormorand mb-4">
         My Skills
       </h2>
       <div className="flex flex-wrap gap-4 max-w-4xl">

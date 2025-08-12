@@ -3,7 +3,7 @@ import React from "react";
 const AboutMe = () => {
   return (
     <div>
-      <h2 className="text-4xl fotn-bold fontcormorand text-left text-black mb-3">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl  text-black font-bold fontcormorand mb-4">
         About Me ➡️
       </h2>
       <p className="text-xl font-extralight fontcormorand text-black">

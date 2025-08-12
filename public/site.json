@@ -1,0 +1,60 @@
+[
+  
+  {
+    "id": 1,
+    "projectTitle": "Real Estate Platform",
+    "projectImage": "https://i.ibb.co.com/qLNfF0sJ/real-estate.webp",
+    "mainTechnologyStack": ["React", "Node.js", "MongoDB", "Firebase", "Stripe"],
+    "briefDescription": "A real estate marketplace where users can list, review, and make offers on properties with secure payments.",
+    "liveProjectLink": "https://real-estate-8f8a4-e2699.web.app",
+    "githubClientLink": "https://github.com/Iftekhar-007/real-estate-platform",
+    "challengesFaced": "Synchronizing offer status between buyer and agent dashboards and integrating Stripe payment flow with offer validation.",
+    "potentialImprovements": "Add AI-driven property recommendations, integrate map-based search, and implement chat between buyers and agents."
+  },
+  {
+    "id": 2,
+    "projectTitle": "HobbyHub Community",
+    "projectImage": "https://i.ibb.co.com/DPDy4hD5/hobbyhub.webp",
+    "mainTechnologyStack": ["React", "Node.js", "MongoDB", "Firebase"],
+    "briefDescription": "A platform to discover, join, or create local hobby-based groups with events and discussions.",
+    "liveProjectLink": "https://hobbyhub-client-a0bd0.web.app/",
+    "githubClientLink": "https://github.com/Iftekhar-007/hobby-hub-organizer",
+    "challengesFaced": "Managing group privacy and invitation logic while keeping event RSVPs consistent across all members.",
+    "potentialImprovements": "Introduce mobile app, enable live streaming of group events, and integrate a recommendation engine for hobbies."
+  },
+  {
+    "id": 3,
+    "projectTitle": "Marathon Management System",
+    "projectImage": "https://i.ibb.co.com/x8RbYwMv/marathon.webp",
+    "mainTechnologyStack": ["React", "Node.js", "MongoDB", "Firebase"],
+    "briefDescription": "A platform to organize and manage marathon events with participant registration and live updates.",
+    "liveProjectLink": "https://marathon-hub-3bd7d.web.app",
+    "githubClientLink": "https://github.com/Iftekhar-007/marathon-management",
+    "challengesFaced": "Handling high concurrent registrations and dynamically updating participant statistics in real time.",
+    "potentialImprovements": "Add wearable device integration for live tracking, implement fundraising features, and enable team-based marathons."
+  },
+  {
+    "id": 4,
+    "projectTitle": "Yoga Blog Website",
+    "projectImage": "https://i.ibb.co.com/W45JCX3H/Natural-Free-Guide-Lead-Magnet-Mockup-Promotion-Facebook-Cover-3.webp",
+    "mainTechnologyStack": ["Wordpress","Elementor","JetEngine"],
+    "briefDescription": "User can know about yoga and practice yoga with instructors through online",
+    "liveProjectLink": "https://blog.shawnspired.com",
+    "githubClientLink": "Wordpress",
+    "challengesFaced": "Managing routine and need to update the routine each month .",
+    "potentialImprovements": "Implement Payment gateway and ecommerce mangement"
+  },
+  {
+    "id": 5,
+    "projectTitle": "Doctor's Appointment",
+    "projectImage": "https://i.ibb.co.com/Mxf85CFg/appointment.webp",
+    "mainTechnologyStack": ["Wordpress","Elementor","JetEngine"],
+    "briefDescription": "An online course platform with a doctors apoointment management system",
+    "liveProjectLink": "https://appointment.shawnspired.com/",
+    "githubClientLink": "wordpress",
+    "challengesFaced": "Designing flexible appointment management with real time and date",
+    "potentialImprovements": "Add Live counseling through google meet and zoom meeting app"
+  }
+  
+  
+]

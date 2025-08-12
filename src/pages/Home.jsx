@@ -3,6 +3,9 @@ import Hero from "../Hero";
 import AboutMe from "../Components/AboutMe";
 import Skills from "../Components/Skills";
 import Education from "../Components/Education";
+import ContactForm from "../Components/ContactForm";
+import Contact from "../Components/Contact";
+import Inspiration from "../Components/Inspiration";
 
 const Home = () => {
   return (
@@ -21,6 +24,10 @@ const Home = () => {
 
       <div>
         <Education></Education>
+      </div>
+
+      <div className="my-10">
+        <Contact></Contact>
       </div>
     </div>
   );
