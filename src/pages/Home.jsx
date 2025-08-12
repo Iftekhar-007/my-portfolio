@@ -6,6 +6,7 @@ import Education from "../Components/Education";
 import ContactForm from "../Components/ContactForm";
 import Contact from "../Components/Contact";
 import Inspiration from "../Components/Inspiration";
+import ProjectCrad from "../Components/ProjectCrad";
 
 const Home = () => {
   return (
@@ -27,6 +28,10 @@ const Home = () => {
       </div>
 
       <div className="my-10">
+        <ProjectCrad></ProjectCrad>
+      </div>
+
+      <div className="mb-10">
         <Contact></Contact>
       </div>
     </div>

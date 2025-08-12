@@ -21,14 +21,12 @@ const Footer = () => {
           <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
         </aside>
         <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-          <a>
-            <NavLink
-              to="https://www.linkedin.com/in/md-iftekhar7"
-              target="_blank"
-            >
-              <FaLinkedin size={40}></FaLinkedin>
-            </NavLink>
-          </a>
+          <NavLink
+            to="https://www.linkedin.com/in/md-iftekhar7"
+            target="_blank"
+          >
+            <FaLinkedin size={40}></FaLinkedin>
+          </NavLink>
 
           <NavLink to="https://github.com/Iftekhar-007" target="_blank">
             <FaGithub size={40}></FaGithub>

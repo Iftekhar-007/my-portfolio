@@ -40,7 +40,7 @@
     "mainTechnologyStack": ["Wordpress","Elementor","JetEngine"],
     "briefDescription": "User can know about yoga and practice yoga with instructors through online",
     "liveProjectLink": "https://blog.shawnspired.com",
-    "githubClientLink": "Wordpress",
+    
     "challengesFaced": "Managing routine and need to update the routine each month .",
     "potentialImprovements": "Implement Payment gateway and ecommerce mangement"
   },
@@ -51,7 +51,7 @@
     "mainTechnologyStack": ["Wordpress","Elementor","JetEngine"],
     "briefDescription": "An online course platform with a doctors apoointment management system",
     "liveProjectLink": "https://appointment.shawnspired.com/",
-    "githubClientLink": "wordpress",
+    
     "challengesFaced": "Designing flexible appointment management with real time and date",
     "potentialImprovements": "Add Live counseling through google meet and zoom meeting app"
   }
