@@ -46,7 +46,7 @@ const Education = () => {
       <div className="bg-linear-to-r from-base-200 to-gray-100 shadow-sm rounded-2xl">
         <div className="flex flex-col items-center gap-6 lg:flex-row-reverse lg:p-10">
           <img
-            src="https://i.ibb.co.com/R4ZCFCn0/b9094323-845c-4c61-9453-2458811b6e6c.jpg"
+            src="https://i.ibb.co.com/1f9GLz4G/e8197aa4-3800-4d9c-9a84-c24d0451ee13.jpg"
             alt="Education"
             className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-sm rounded-lg shadow-2xl flex-1 object-cover"
           />

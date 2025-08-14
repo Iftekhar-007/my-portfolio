@@ -66,7 +66,7 @@ const Hero = () => {
         <div className="flex flex-col items-center gap-6 lg:flex-row lg:p-10">
           {/* Image */}
           <img
-            src="https://i.ibb.co.com/1f9GLz4G/e8197aa4-3800-4d9c-9a84-c24d0451ee13.jpg"
+            src="https://i.ibb.co.com/R4ZCFCn0/b9094323-845c-4c61-9453-2458811b6e6c.jpg"
             alt="Iftekhar Hossain Shawon"
             className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-sm rounded-lg shadow-2xl flex-1 object-cover"
           />
@@ -79,7 +79,7 @@ const Hero = () => {
 
             <div className="text-left space-y-2 flex flex-col justify-center items-center">
               <p className="pt-3 fontcormorand text-2xl text-black text-center">
-                Frontend Web Developer, WordPress Web Developer
+                MERN Stack Developer, WordPress Web Developer
               </p>
 
               {/* LinkedIn */}

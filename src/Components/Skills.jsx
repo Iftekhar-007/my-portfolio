@@ -18,16 +18,19 @@ import {
   FaBootstrap,
   FaNode,
   FaWordpress,
+  FaHtml5,
 } from "react-icons/fa";
 import {
   SiTailwindcss,
   SiMongodb,
   SiElementor,
   SiJetbrains,
+  SiExpress,
 } from "react-icons/si";
 
 const skills = [
   { name: "JavaScript", icon: <FaJs className="text-yellow-400" /> },
+  { name: "HTML5", icon: <FaHtml5 className="text-orange-500" /> },
   { name: "React", icon: <FaReact className="text-blue-400" /> },
   { name: "TailwindCSS", icon: <SiTailwindcss className="text-teal-400" /> },
   { name: "Bootstrap", icon: <FaBootstrap className="text-purple-500" /> },
@@ -37,6 +40,7 @@ const skills = [
   { name: "Elementor", icon: <SiElementor className="text-pink-500" /> },
   { name: "JetEngine", icon: <SiJetbrains className="text-orange-500" /> },
   { name: "Crocoblock", icon: <FaWordpress className="text-green-500" /> },
+  { name: "ExpressJs", icon: <SiExpress className="text-teal-400" /> },
 ];
 
 export default function Skills() {
