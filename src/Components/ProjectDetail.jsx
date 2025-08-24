@@ -55,7 +55,7 @@ const ProjectDetail = () => {
         {project.briefDescription}
       </p>
 
-      <p className="text-xl fontcormorand my-2">
+      {/* <p className="text-xl fontcormorand my-2">
         {" "}
         <span className="font-bold">Live Project Link :</span>{" "}
         <NavLink to={project.liveProjectLink} target="_blank">
@@ -69,7 +69,29 @@ const ProjectDetail = () => {
         <a href={project.githubClientLink} target="_blank">
           {project.githubClientLink}
         </a>
-      </p>
+      </p> */}
+
+      <div className="my-4 flex gap-4">
+        {/* Live Project Button */}
+        <a
+          href={project.liveProjectLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-4 py-2 bg-blue-600 text-white font-bold rounded hover:bg-blue-700 transition"
+        >
+          Live Site
+        </a>
+
+        {/* View Code Button */}
+        <a
+          href={project.githubClientLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-4 py-2 bg-gray-800 text-white font-bold rounded hover:bg-gray-900 transition"
+        >
+          View Code
+        </a>
+      </div>
 
       <p className="text-xl fontcormorand my-2">
         {" "}
