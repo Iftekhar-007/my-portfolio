@@ -93,8 +93,12 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn btn-outline fontcormorand text-black hover:text-black font-bold ">
-            RESUME
+          <a
+            href="/myresume2.pdf"
+            download="Iftekhar-Resume.pdf"
+            className="btn btn-outline fontcormorand text-black hover:text-black font-bold text-sm sm:text-base"
+          >
+            Download Resume
           </a>
         </div>
       </div>

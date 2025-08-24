@@ -53,9 +53,13 @@ const Hero = () => {
 
             {/* Resume Button */}
             <div className="flex justify-center pt-4">
-              <button className="btn btn-outline fontcormorand text-black hover:text-black font-bold text-sm sm:text-base">
-                RESUME
-              </button>
+              <a
+                href="/public/myresume2.pdf"
+                download="Iftekhar-Resume.pdf"
+                className="btn btn-outline fontcormorand text-black hover:text-black font-bold text-sm sm:text-base"
+              >
+                Download Resume
+              </a>
             </div>
           </div>
         </div>
