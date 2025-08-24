@@ -54,7 +54,7 @@ const Hero = () => {
             {/* Resume Button */}
             <div className="flex justify-center pt-4">
               <a
-                href="/public/myresume2.pdf"
+                href="/shawonsresume.pdf"
                 download="Iftekhar-Resume.pdf"
                 className="btn btn-outline fontcormorand text-black hover:text-black font-bold text-sm sm:text-base"
               >
