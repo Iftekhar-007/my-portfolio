@@ -94,7 +94,7 @@ const Header = () => {
         </div>
         <div className="navbar-end">
           <a
-            href="/myresume2.pdf"
+            href="/shawonsresume.pdf"
             download="Iftekhar-Resume.pdf"
             className="btn btn-outline fontcormorand text-black hover:text-black font-bold text-sm sm:text-base"
           >
