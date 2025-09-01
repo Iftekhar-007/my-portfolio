@@ -28,7 +28,7 @@ const ProjectCrad = () => {
                   <img src={project.projectImage} alt="Shoes" />
                 </figure>
                 <div className="card-body">
-                  <h2 className="card-title fontcormorand">
+                  <h2 className="card-title fontcormorand lg:text-2xl">
                     {project.projectTitle}
                   </h2>
                   <p className="fontcormorand">{project.briefDescription}</p>

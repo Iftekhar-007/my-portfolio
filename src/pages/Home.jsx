@@ -7,6 +7,7 @@ import ContactForm from "../Components/ContactForm";
 import Contact from "../Components/Contact";
 import Inspiration from "../Components/Inspiration";
 import ProjectCrad from "../Components/ProjectCrad";
+import Certificates from "../Components/Certificates";
 
 const Home = () => {
   return (
@@ -31,8 +32,11 @@ const Home = () => {
         <ProjectCrad />
       </div>
 
-      <div id="contact" className="mb-10">
+      <div id="contact" className="">
         <Contact />
+      </div>
+      <div className="my-10">
+        <Certificates></Certificates>
       </div>
     </div>
   );
