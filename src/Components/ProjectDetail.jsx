@@ -55,22 +55,6 @@ const ProjectDetail = () => {
         {project.briefDescription}
       </p>
 
-      {/* <p className="text-xl fontcormorand my-2">
-        {" "}
-        <span className="font-bold">Live Project Link :</span>{" "}
-        <NavLink to={project.liveProjectLink} target="_blank">
-          {project.liveProjectLink}
-        </NavLink>
-      </p>
-
-      <p className="text-xl fontcormorand my-2">
-        {" "}
-        <span className="font-bold">Code :</span>{" "}
-        <a href={project.githubClientLink} target="_blank">
-          {project.githubClientLink}
-        </a>
-      </p> */}
-
       <div className="my-4 flex gap-4">
         {/* Live Project Button */}
         <a
